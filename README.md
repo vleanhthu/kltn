@@ -1,15 +1,15 @@
 # kltn
-Repo gồm 4 notebook chính:
+## 📁 Nội dung chính
 
-- **MovieTweeting.ipynb**  
-  Tiền xử lý và phân tích dữ liệu MovieTweetings (đọc dữ liệu, làm sạch, thống kê mô tả, trực quan hóa cơ bản).
+### 🎬 MovieTweeting.ipynb
+Tiền xử lý dữ liệu MovieTweetings: đọc dữ liệu, làm sạch, thống kê mô tả và trực quan hóa cơ bản.
 
-- **ContentBased.ipynb**  
-  Xây dựng hệ gợi ý **dựa trên nội dung** (content-based filtering): trích xuất đặc trưng phim, tính độ tương đồng và gợi ý các phim tương tự.
+### 🎯 ContentBased.ipynb
+Xây dựng hệ gợi ý dựa trên nội dung (content-based filtering): trích xuất đặc trưng, tính độ tương đồng và gợi ý phim tương tự.
 
-- **User_Item.ipynb**  
-  Xây dựng hệ gợi ý **dựa trên quan hệ người dùng – sản phẩm** (user–item / collaborative filtering).  
-  File này bao gồm: xây dựng ma trận tương tác, tính độ tương đồng giữa người dùng/mục tiêu, dự đoán rating, và triển khai **Truncated SVD** để giảm chiều dữ liệu và cải thiện hiệu suất mô hình.
+### 👥 User_Item.ipynb
+Hệ gợi ý dựa trên quan hệ người dùng – sản phẩm (user–item / collaborative filtering).  
+Bao gồm ma trận tương tác, tính similarity, dự đoán rating và sử dụng Truncated SVD để giảm chiều dữ liệu.
 
-- **Hybrid.ipynb**  
-  Kết hợp hai phương pháp trên thành **mô hình lai (hybrid recommender)**, so sánh, đánh giá và tối ưu chất lượng gợi ý.
+### ⚡ Hybrid.ipynb
+Kết hợp content-based và collaborative filtering để tạo thành mô hình lai (hybrid recommender), đồng thời đánh giá và cải thiện chất lượng gợi ý.
