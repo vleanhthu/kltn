@@ -2,7 +2,7 @@
 ## 📁 Nội dung chính
 
 ### 🎬 MovieTweeting.ipynb
-Tiền xử lý dữ liệu MovieTweetings: đọc dữ liệu, làm sạch, thống kê mô tả và trực quan hóa cơ bản.
+Tiền xử lý dữ liệu MovieTweetings: đọc dữ liệu, làm sạch, thống kê mô tả và trực quan hóa cơ bản. Sau đó chi dữ liệu theo phương pháp Temporal Cross-Validation Per User
 
 ### 🎯 ContentBased.ipynb
 Xây dựng hệ gợi ý dựa trên nội dung (content-based filtering): trích xuất đặc trưng, tính độ tương đồng và gợi ý phim tương tự.
