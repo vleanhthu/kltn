@@ -12,4 +12,4 @@ Hệ gợi ý dựa trên quan hệ người dùng – sản phẩm (user–item
 Bao gồm ma trận tương tác, tính similarity, dự đoán rating và sử dụng Truncated SVD để giảm chiều dữ liệu.
 
 ### ⚡ Hybrid.ipynb
-Kết hợp content-based và collaborative filtering để tạo thành mô hình lai (hybrid recommender), đồng thời đánh giá và cải thiện chất lượng gợi ý.
+Kết hợp content-based và collaborative filtering để tạo thành mô hình lai (Weighted Hybrid Recommendation), đồng thời đánh giá và cải thiện chất lượng gợi ý.
